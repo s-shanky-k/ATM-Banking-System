@@ -1,6 +1,6 @@
 # ATM-Machine
 
-This project is a simulation of an ATM banking system implemented in Java.
+This project is a **Simulation of an ATM Banking System** implemented in **Java**.
 
 Front end is implemented using AWT and Swing. Data is fetched from the oracle database using JDBC.
 
