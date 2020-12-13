@@ -2,7 +2,7 @@
 
 This project is a **Simulation of an ATM Banking System** implemented in **Java**.
 
-Front end is implemented using AWT and Swing. Data is fetched from the oracle database using JDBC.
+Front end is implemented using `AWT and Swing`. Data is fetched from the `SQL Plus` database using `JDBC`.
 
 ## Functionality
 ➢ The system has a verification process for which the clients are required to login with their ATM card number and a pin.
