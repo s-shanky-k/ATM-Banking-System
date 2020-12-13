@@ -1,15 +1,15 @@
 # ATM-Machine
 
-This project is a simulation of an ATM banking system.
+This project is a simulation of an ATM banking system implemented in Java.
 
-The project is implemented in Java. Front end is implemented using AWT. Data is fetched from the database using JDBC.
+Front end is implemented using AWT and Swing. Data is fetched from the oracle database using JDBC.
 
 ## Functionality
 ➢ The system has a verification process for which the clients are required to login with their ATM card number and a pin.
 
 ➢ Authorization to the account is not provided with an invalid pin or an invalid card number. 
 
-➢ Once the user is logged in, the user is provided with various banking services like Cash Withdrawal, Deposit Cash, Check their account balance and Transfer Funds to other accounts.
+➢ Once the user is logged in, the user is provided with various banking services like **Cash Withdrawal, Deposit Cash, Balance Inquiry, Transferring Funds and View Transfer History**.
 
 ➢ The Withdraw Cash feature enables the client to withdraw cash from their bank account. 
 
@@ -21,4 +21,22 @@ The project is implemented in Java. Front end is implemented using AWT. Data is 
 
 ➢ The client can also check their account balance at the ATM.
 
-## Screenshots
+➢ All the above functionalities were implemented with neccassary validations in the database.
+
+## Front End Screenshots
+
+| Login | Services Menu |
+:-------------------------:|:-------------------------:
+<img src="Snapshots/Login.png" width="400"> | <img src="Snapshots/ServicesMenu.png" width="400">
+
+| Withdraw Window | Balance Inquiry |
+:-------------------------:|:-------------------------:
+<img src="Snapshots/Withdraw.png" width="400"> | <img src="Snapshots/BalanceInquiry.png" width="400">
+
+| Transfer Funds Window | Transfer History |
+:-------------------------:|:-------------------------:
+<img src="Snapshots/TransferFunds.png" width="400"> | <img src="Snapshots/TranferHistory.png" width="400">
+
+| Deposit Window | Logout |
+:-------------------------:|:-------------------------:
+<img src="Snapshots/Deposit.png" width="400"> | <img src="Snapshots/LogoutMessage.png" width="400">
